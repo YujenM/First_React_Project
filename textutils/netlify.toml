@@ -1,4 +1,4 @@
 [[redirects]]
-from ="/First_React_Project/textutils/*"
-to="/First_React_Project/textutils/public/index.html"
+from ="/*"
+to="/index.html"
 status=200
