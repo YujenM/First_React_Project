@@ -24,7 +24,7 @@ function App() {
     <Router>
       <Navbar title='Text Editor'  template={template} togglemode={togglemode}/>
         <Routes>
-          <Route path="/about" element={<About template={template}/>}/>
+          <Route path="/About" element={<About template={template}/>}/>
         
           <Route path="/" element={<TextForm texttitle="Enter your text Here" heading="Total Text" template={template}/>}/>
         </Routes>
